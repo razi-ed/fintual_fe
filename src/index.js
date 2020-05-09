@@ -1,2 +1,14 @@
+import React from 'react';
+import { render } from 'react-dom';
+
 import './index.css';
-console.log("starting proj");
+
+const App = () => {
+  return (
+    <div>
+      'Hello world!'
+    </div>
+  );
+}
+
+render(<App />, document.getElementById('app'));
